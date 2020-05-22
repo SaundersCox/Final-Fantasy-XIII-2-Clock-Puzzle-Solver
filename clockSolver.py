@@ -77,7 +77,7 @@ i = 0
 print('Enter numbers starting from 12 o\'clock position.')
 print('Enter \'0\' to solve')
 while (n != 0):
-    n = input()
+    n = int(input())
     if (n>0):
         nums.append([i, n, set(), False]) # ID, value, references, marked
         i = i + 1
